@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1px">
+    <!-- <table border="1px">
         <thead>
             <tr>
                 <td style="background-color: aquamarine;">
@@ -66,8 +66,65 @@
                 <td>c++</td>
                  <td>vikas</td>
             </tr>
-
         </thead>
-    </table>
+    </table> -->
+    <br>
+<form action="">
+    <div>
+        <label for="fname">enter your name </label>
+        <input type="text" id="fname" name="fname" >
+    </div>
+<br>
+    <div>
+        <label for="pass">enter your pass</label>
+        <input type="password" id="pass" placeholder="enter your password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+    </div>
+   
+    <br>
+   
+    <br>
+    <div>
+        <label >email </label>
+        <input type="email" name="" id="pass">
+    </div>
+    <br>
+    <div>
+        <label for="">enter your gender</label>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="female">female
+    </div>
+    <br>
+    <div>
+        <label for="">enter your qualifications</label>
+        <input type="checkbox" name="edu" value="hsc">hsc
+        <input type="checkbox" name="edu" value="ssc">ssc
+        <input type="checkbox" name="edu" value="pg">pg
+    </div>
+    <br>
+    <div>
+      <label for="">select your course</label>
+        <select name="" id="">
+        <option value="c++">c++</option>
+        <option value="java">java</option>
+        <option value="python">python</option>
+        <option value="javascript">javascript</option>
+        <option value="sql">c++</option>
+    </select>
+    </div>
+    <br>
+    <div>
+       
+        <textarea name="" placeholder="enter your feedback" id="" cols="30" rows="10"></textarea>
+    </div>
+    <button >submit</button>
+</form>
 </body>
 </html>
+
+
+
+
+<!-- 
+    radio buttton and check box button
+    we have to mention its type, name and value  -->
