@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="day1.css">
+    
 </head>
+
+<!-- <style>
+  body{
+    background-color: gray;
+    text-align: center;
+  }
+  .div{
+    text-align: center;
+  }
+   -->
+</style>
+
+
+
 <body>
     <!-- <table border="1px">
         <thead>
@@ -69,13 +85,14 @@
         </thead>
     </table> -->
     <br>
-<form action="">
-    <div>
+    <div class="formdiv">
+<form class="bor">
+    <div class="name">
         <label for="fname">enter your name </label>
         <input type="text" id="fname" name="fname" >
     </div>
-<br>
-    <div>
+        <br>
+    <div class="password">
         <label for="pass">enter your pass</label>
         <input type="password" id="pass" placeholder="enter your password" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
     </div>
@@ -83,7 +100,7 @@
     <br>
    
     <br>
-    <div>
+    <div class="emailid">
         <label >email </label>
         <input type="email" name="" id="pass">
     </div>
@@ -102,7 +119,7 @@
         <input type="checkbox" name="edu" value="pg">pg
     </div>
     <br>
-    <div>
+    <div class="course">
       <label for="">select your course</label>
         <select name="" id="">
         <option value="c++">c++</option>
@@ -113,15 +130,37 @@
     </select>
     </div>
     <br>
-    <div>
-       
+
+    <div class="text">
         <textarea name="" placeholder="enter your feedback" id="" cols="30" rows="10"></textarea>
     </div>
-    <button >submit</button>
+
+    <div class="dateof">
+        <label for="">select DOB: </label>
+        <input type="date" name="dob">
+    </div>
+    <br>
+    <div class="file">
+        <label for="">upload your file</label>
+        <input type="file">
+    </div>
+    <br>
+    <div class="fees">
+        <label for="">course fees</label>
+        <input type="text" value="106000" readonly disabled>
+    </div>
+    <button class="btn">submit</button>
 </form>
+</div>
+<hr>
+<h2>new input types</h2>
+<input type="date"><br>
+<input type="time"><br>
+<input type="datetime-local"><br>
+<input type="range"><br>
+<input type="number" min="12" max="18"><br>
 </body>
 </html>
-
 
 
 

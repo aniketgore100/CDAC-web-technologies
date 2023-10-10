@@ -1,0 +1,55 @@
+/* inline : use styline attribute;
+internal
+external
+*/
+ body{
+    text-align: center;
+    background-color: gray;
+ }
+ .formdiv{
+   background-color: lightblue;
+   width: 700px;
+   margin-left: 25%;
+ }
+ .bor{
+    border: 1px solid black;
+    height: 80%;
+ }
+ .name{
+    padding: 10px;
+
+ }
+ .name{
+   margin-left: -33px;
+ }
+ .password{
+    margin-left: -4%;
+ }
+ .emailid{
+    margin-left: 5%;
+ }
+ .text{
+    margin-left: -26%;
+ }
+ .course{
+   margin-left: 8%;
+ }
+ .text{
+   height: 190px;
+    width: 1147px
+ }
+ .dateof{
+   margin-left: 1%;
+ }
+ .file{
+   margin-left: 22%;
+ }
+ .fees{
+   margin-left: 0%;
+ }
+ .btn{
+   margin-left: 9%;
+ }
+
+
+ 
