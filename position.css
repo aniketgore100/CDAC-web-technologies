@@ -1,0 +1,38 @@
+.position{
+    border: 2px solid;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+
+
+.parent{
+    border: 3px solid red;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 45px;
+    left: 48px;
+}
+.child{
+    border: 3px solid green;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 48px;
+}
+.fixed{
+    border: 2px solid greenyellow;
+    margin-top:300px;
+    height: 45px;
+    width: 45px;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    bottom: 0px;
+    opacity: 0.6;
+}
