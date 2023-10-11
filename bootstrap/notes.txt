@@ -1,0 +1,4 @@
+it is a html, css framework
+used to make website and web app attractive, responsive and mobile friendly. bootstrap provide us ibuilt classes 
+it can be used as CDN or by installing 
+it is opensource 

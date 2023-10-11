@@ -1,0 +1,21 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+.container {
+    position: relative;
+    left: 100px;
+}
+
+.sec{
+   position: relative;
+   left: auto;
+}
+.bt1{
+    position: relative;
+    right: auto;
+}
+.bt2 {
+    position: relative;
+    left: auto;
+}
