@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color:rgb(66, 106, 66);
+}
+.form{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px 4px ;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+   top: 180px;
+   text-align: center;
+  
+}
+.username{
+    padding: 20px;
+}
+
+.username > input{
+    background-color: lightgray;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+}
+.password > input{
+    
+        background-color: lightgray;
+        text-align: center;
+        border-radius: 1px;
+        height: 30px;
+        width: 200px;
+}
+
+.btn{
+    margin: 15px;
+}
+
+
+.bottom > h6 > b {
+    opacity: 0.5;
+}
+.bottom > h6 >  strong{
+    text-decoration: none;
+    color: rgb(116, 228, 116);
+}
+
+.bottom > h6 > strong > a{
+    text-decoration: none;
+}
+.bottom > button {
+    width: 200px;
+    background-color: rgb(147, 224, 147);
+    color: white;
+}
