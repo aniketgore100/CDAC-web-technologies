@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(/images/3.jpg);
+}
+.class1{
+    background-color: rgb(120, 88, 153);
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+}
+.class2{
+    text-align: center;
+    padding-top: 30px;
+}
+#in{
+    margin: 10px;
+}
+#in2{
+    margin: 10px;
+}
+#h4{
+    
+    color: rgb(0, 0, 0);
+}

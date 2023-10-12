@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+}
+
+table, td {
+    border: 1px solid black;
+   
+}
+
+.class1{
+    margin:auto;
+    text-align: center;
+}
+
+
+#inp1{
+    margin: 30px;
+    width: 150px;
+}
+
+#inp2{
+    display: block;
+    margin: auto;
+}
+
+#btn{
+    margin: 20px;
+}

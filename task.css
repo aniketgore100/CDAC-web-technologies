@@ -1,0 +1,35 @@
+.name{
+     margin: 20px;
+    border: 2px solid black;
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+.topl{
+    font-size: 35px;
+    position: absolute;
+}
+
+.topr{
+    position: absolute;
+    right: 0px;
+    font-size: 35px;
+}
+.botl{
+    position: absolute;
+    bottom: 0px;
+    font-size: 35px;
+}
+.botr{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 35px;
+}
+.cen{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+}
