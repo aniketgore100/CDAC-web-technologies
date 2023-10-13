@@ -1,5 +1,5 @@
-// let string = document.getElementById("h1").innerText;
-// console.log(string.indexOf("t"));
+let string = document.getElementById("h1").innerText;
+console.log(string.indexOf("t"));
 
 // console.log(string.lastIndexOf("t", 22));
 // console.log(string.search("aniket"));
@@ -29,32 +29,42 @@
 // document.write(emp.detail())
 
 
-let arr = ["aniket", "sanket", "kishore", "shri", "indra"];
+// let arr = ["aniket", "sanket", "kishore", "shri", "indra"];
 
-for(let i =0; i<arr.length; i++){
-    document.write(arr[i] + ',');
-}
-document.write("<br>")
+// for(let i =0; i<arr.length; i++){
+//     document.write(arr[i] + ',');
+// }
+// document.write("<br>")
 
 
-let emp = [{
-    id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
-},
-{
-    id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
-},
-{
-    id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
-},
-{
-    id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
-},
-{
-    id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
-}
-]
+// let emp = [{
+//     id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
+// },
+// {
+//     id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
+// },
+// {
+//     id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
+// },
+// {
+//     id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
+// },
+// {
+//     id: 101, name: "aniket", post: "soft engg", contact: "9588428818", company: "C-DAC",
+// }
+// ]
 
-for(let i = 0; i<emp.length; i++){
-    document.write(emp[i].id, emp[i].name, emp[i].post, emp[i].contact, emp[i].company, `<br>`);
-}
+// for(let i = 0; i<emp.length; i++){
+//     document.write(emp[i].id, emp[i].name, emp[i].post, emp[i].contact, emp[i].company, `<br>`);
+// }
 
+// let ar = [1,2,3,4,5,6,7,8,9];
+// // let mp = ar.map((val)=>{
+// //     return val*2;
+// // });
+// // document.write(mp, '<br>');
+// let out = ar.reduce((prev, next)=>{
+//     return prev + next;
+// });
+
+// document.write(out, '<br>');

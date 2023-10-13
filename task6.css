@@ -1,0 +1,18 @@
+.div{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border: 2px solid blue;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px gray;
+    background-color: beige;
+    font-weight: 700;
+    border-radius: 9px;
+}
