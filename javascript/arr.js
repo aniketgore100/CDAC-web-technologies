@@ -3,3 +3,4 @@ console.log(city);
 
 city.push("nasik");
 console.log(city);
+
