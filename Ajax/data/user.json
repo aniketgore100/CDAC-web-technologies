@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "fname": "aniket ",
+      "lname": "gore",
+      "email": "goreaniket100@gmail.com",
+      "age": "21",
+      "isactive": "active",
+      "id": 1
+    },
+    {
+      "fname": "pavan",
+      "lname": "nikam",
+      "email": "goreaniket",
+      "age": "12",
+      "isactive": "lknd",
+      "id": 2
+    },
+    {
+      "fname": "aniket ",
+      "lname": "gore",
+      "email": "goreaniket100@gmail.com",
+      "age": "21",
+      "isactive": "active",
+      "id": 3
+    }
+  ]
+}
